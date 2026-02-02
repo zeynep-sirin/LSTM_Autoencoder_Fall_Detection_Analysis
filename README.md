@@ -2,13 +2,13 @@
 Deep Learning project using an LSTM Autoencoder for Fall Detection in sensor data. Optimized architecture (Deep LSTM, Tanh, LR=0.00001) to stabilize Nan errors. Final analysis yielded a low Recall of 2.75%, demonstrating the limitation of the unsupervised Autoencoder approach for high-noise time-series anomaly detection.
 
 
-### 🎯 Project Overview
+### Project Overview
 
 This project focuses on applying **Deep Learning** techniques to address the challenge of **Anomaly Detection** in human activity sensor data, specifically targeting **Fall Detection**. The primary goal was to train a **Recurrent Neural Network (RNN)** architecture, the **LSTM Autoencoder**, to distinguish between normal human movement and highly critical fall events. The entire project was developed using open-source data from **Kaggle.com**.
 
 ---
 
-### 🛠️ Technical Stack and Libraries
+###  Technical Stack and Libraries
 
 The entire workflow, from data preprocessing to model evaluation, was implemented in **Python**, utilizing the following core libraries:
 
@@ -17,7 +17,6 @@ The entire workflow, from data preprocessing to model evaluation, was implemente
 * **Evaluation:** **Scikit-learn (sklearn)** (for calculating performance metrics like Confusion Matrix, Recall, and F1 Score).
 * **Visualization:** **Matplotlib** (for plotting the training loss and analyzing results).
 
----
 
 ###  Methodology and Deep Learning Architecture
 
